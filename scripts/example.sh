@@ -1,0 +1,1 @@
+/usr/local/apps/matlab/matlabR2007a/bin/matlab -nodisplay -nojvm -logfile "logs/testlog.txt" -r "ls; cd /home/mlg/dkd23/Dropbox/code/additive_v2/; ls; run_one_experiment(2, 1, 5, 1, 1, 0, 'results/'); exit" 

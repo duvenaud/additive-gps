@@ -1,0 +1,25 @@
+#
+# add10 dataset
+#
+# Dataset.spec
+
+The synthetic dataset "add10" uses a function suggested by Jerome Friedman in "Multivariate Adaptive Regression Splines", technical Report No. 102, November 1988, Laboratory for Computational Statistics, Department of Statistics, Stanford University.
+
+The function is: 
+f(x1,...,x10) = 10*sin(pi*x1*x2) + 20*(x3-0.5)^2 + 10*x4 + 5*x5 + n, where n is zero mean unit variance Gaussian noise. The inputs x1...x10 are sampled independently from a uniform [0; 1] distribution.
+
+Origin: artificial
+Usage: historical
+Order: uninformative
+Attributes:
+  1  x1    ?  [0,1]       # input  1
+  2  x2    ?  [0,1]       # input  2
+  3  x3    ?  [0,1]       # input  3
+  4  x4    ?  [0,1]       # input  4
+  5  x5    ?  [0,1]       # input  5
+  6  x6    ?  [0,1]       # input  6 (noise)
+  7  x7    ?  [0,1]       # input  7 (noise)
+  8  x8    ?  [0,1]       # input  8 (noise)
+  9  x9    ?  [0,1]       # input  9 (noise)  
+ 10  x10   ?  [0,1]       # input 10 (noise)
+ 11  y     u  (-Inf,Inf)  # response

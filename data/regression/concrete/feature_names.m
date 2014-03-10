@@ -1,0 +1,1 @@
+feature_names = {'Cement','Slag','Fly Ash','Water','Plasticizer','Coarse','Fine','Age','Strength'};
